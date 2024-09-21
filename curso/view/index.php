@@ -18,15 +18,15 @@
             <a href="#Servicio">Servicio</a>
             <a href="#Portafolio">Portafolio</a>
             <a href="#Expertos">Expertos</a>
-            <a href="#Contactos">Contactos</a>
+            <a href="#contacto">Contactos</a>
         </nav>
         <div class="contenedor head">
-            <h1>Convertimos tus sueños en realidad</h1>
+            <h1 class="titulo">Convertimos tus sueños en realidad</h1>
             <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
     </header>
     <main>
-        <section class="services contenedor" id="Servicio">
+        <section class="contenedor" id="Servicio">
             <h2 class="subtitulo">Nuestro servicio</h2>
             <div class="contenedor-servicio">
                 <img src="imagenes/halloween1-mediano.jpg" alt="">
@@ -46,9 +46,9 @@
                 </div>
             </div>
         </section>
-        <section class="gallery" id="portfolio">
+        <section class="gallery" id="Portafolio">
             <div class="contenedor">
-                <h2 class="subttitulo">Galeria</h2>
+                <h2 class="subtitulo">Galeria</h2>
                 <div class="contenedor-galeria">
                     <img src="imagenes/img1.jpg" alt="" class="img-galeria">
                     <img src="imagenes/img2.jpg" alt="" class="img-galeria">
@@ -59,10 +59,10 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="imagen-light">
-            <img src="imagenes/closeLight.svg" alt="">
-            <img src="" alt="" class="agregar-imagen">
-        </section> -->
+        <section class="imagen-light">
+            <img src="imagenes/cerrar.svg" alt="" class="close">
+            <img src="imagenes/halloween1.jpg" alt="" class="agregar-imagen">
+        </section>
         <section class="contenedor" id="Expertos">
             <h2 class="subtitulo">Expertos en:</h2>
             <section class="expert">
@@ -83,8 +83,8 @@
     </main>
     <footer id="contacto">
         <div class="contenedor footer-content">
-            <div class="contact-ud">
-                <h2 class="brand">Juan Pablo Vasquez</h2>
+            <div class="contact-us">
+                <h2 class="brand">JV Dev</h2>
                 <p>Somos expertos en la creacion de tus sueños</p>
             </div>
             <div class="social-media">
@@ -99,6 +99,7 @@
                 </a>
             </div>
         </div>
+        <div class="line"></div>
     </footer>
 
     <script src="../control/js/menu.js"></script>
